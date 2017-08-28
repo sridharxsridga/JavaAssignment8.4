@@ -41,6 +41,7 @@ public class FileCopy {
 
 		bufferedWriter.close();
 		fileWriter.close(); // closing fileWriter to avoid resouce leak
+		System.out.println("File copied!!");
 
 	}
 
